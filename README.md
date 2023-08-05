@@ -9,11 +9,10 @@ To browse source, simply open https://ref12.io in your browser. By default, you 
 
 Indexing happens in two phases: Analysis and Ingestion. During analysis, C#/VB source files are analyzed using Roslyn and files are generated containing the extracted semantic information. These files are typically packaged into a zip file and ingested elsewhere. During ingestion, the analysis files are loaded an their information is added to a custom database. The database is used to satisfy all queries. The database format allows it to be queried in a serverless manner using WASM but this is untenable for larger codebases or aggregations of codebases.
 
-### Improvements relative to SourceBrowser
- 1. Indexing *is* incremental. Many repos can be analyzed and ingested at different times.
+Indexing *is* incremental. Many repos can be analyzed and ingested at different times.
 
 ### Limitations and known issues
- 1. Analysis requires a successful build of projects or successful extraction of compilation using Roslyn MSBuildWorkspace.
+ * Analysis requires a successful build of projects or successful extraction of compilation using Roslyn MSBuildWorkspace.
 
 ### Features
 * Semantic analysis of C#, VB, and MSBuild
