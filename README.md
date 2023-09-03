@@ -5,6 +5,8 @@ ref12.io is a replacement/successor to https://referencesource.microsoft.com, ht
 
 To browse source, simply open https://ref12.io in your browser. By default, you can navigate the dotnet/runtime and other assorted [repos](https://ref12.io/?rightMode=repossummary&access=Public) currently found in https://source.dot.net. A much larger set of repos is available to sponsors. Our sponsors can also request other public repos to be added to the index. NOTE: Login is required for sponsors to view the full set of repos. See full list [here](https://ref12.io/?rightMode=repossummary&access=Internal).
 
+Currently, indexing private repositories is not supported.
+
 Contact us if you're interested in self-hosting the ReF12 engine on-prem for your private enterprise. We provide a license and paid support. Your private source code stays hosted on your infrastructure.
 
 ## Features
